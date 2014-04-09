@@ -93,12 +93,13 @@ else:
 
 def main():
     # To assign camera by name: put string(s) in list
-    eye_src = ["Microsoft", "6000","Integrated Camera"]
+    #eye_src = ["Microsoft", "6000","Integrated Camera"]
+    #eye_src = ["Microsoft", "6000","Integrated Camera","1415:2000","Sony Playstation Eye"]
     world_src = ["Logitech Camera","(046d:081d)","C510","B525", "C525","C615","C920","C930e"]
 
     # to assign cameras directly, using integers as demonstrated below
-    # eye_src = 1
-    # world_src = 0
+    eye_src = 0
+    #world_src = 0
 
     # to use a pre-recorded video.
     # Use a string to specify the path to your video file as demonstrated below
